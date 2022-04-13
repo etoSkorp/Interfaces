@@ -1,6 +1,6 @@
 package engines;
 
-public class EngineV12 implements Engine{
+public class EngineV12 implements Engine {
 
     @Override
     public String getSpeed() {

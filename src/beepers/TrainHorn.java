@@ -1,6 +1,6 @@
 package beepers;
 
-public class TrainHorn implements Beeper{
+public class TrainHorn implements Beeper {
 
     @Override
     public String makeSound() {
