@@ -1,26 +1,25 @@
 package engines;
 
-public class EngineV6 implements Engine {
+public class InlineFour implements Engine{
 
-    private final float fuelConsumption = 10.5f;
+    private final float fuelConsumption = 8.5f;
 
-    @Override
     public float getFuelConsumption() {
         return fuelConsumption;
     }
 
     @Override
     public String displacement() {
-        return "Displacement is: " + 3.2f + "L";
+        return "Displacement is: " + 2.0f + "L";
     }
 
     @Override
     public int engineSpeed() {
-        return 6500;
+        return 5000;
     }
 
     @Override
     public String octaneNumber() {
-        return "RON is: 95";
+        return "RON is: 92";
     }
 }
